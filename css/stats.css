@@ -1,0 +1,8 @@
+.stats{
+
+  background: var(--secondary);
+  border-radius: .5rem;
+  padding: 1rem;
+  /* box-sizing: border-box; */
+  flex-grow: 1;
+}

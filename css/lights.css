@@ -1,0 +1,57 @@
+.light{
+  inline-size: .5rem;
+  block-size: .5rem;
+  border-radius: 50%;
+  overflow: hidden;
+  background-color: black;
+}
+
+.light.is-red{
+  background: #F4647D;
+}
+
+.light.is-yellow{
+  background: #FEEF8D;
+}
+
+.light.is-green{
+ background: #5BAA67;
+}
+
+.light.is-colorDefault{
+  background-color: var(--primary);
+}
+
+.light.is-big{
+  inline-size: 2rem;
+  block-size: 2rem;
+  box-sizing: border-box;
+  border: .125rem solid var(--white);
+}
+
+
+.light.is-sky{
+  background: #4BA3DA;
+}
+
+.light.is-medium{
+  inline-size: 1rem;
+  block-size: 1rem;
+  box-sizing: border-box;
+}
+
+.light.is-animated{
+  animation: light .3s linear infinite;
+}
+
+@keyframes light{
+  0%{
+    background-color: var(--white);
+  }
+  50%{
+    background: #4BA3DA;
+  }
+  100%{
+    background-color: var(--white);
+  }
+}

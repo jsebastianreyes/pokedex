@@ -1,0 +1,7 @@
+.variants{
+  grid-area: variants;
+
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}

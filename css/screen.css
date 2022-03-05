@@ -1,0 +1,35 @@
+.screen{
+
+}
+
+.screen-border{
+  inline-size: 100%;
+  background: var(--white);
+  border-radius:.5rem;
+  padding: 1.5rem;
+  padding-block-end: 0;
+  box-sizing: border-box;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 2rem 100%, 0 calc(100% - 2.75rem));
+}
+
+.screen-safeArea{
+  padding: 1rem;
+  background-color: #8DB9DC;
+  border-radius: .25rem;
+  block-size: 100%;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-block-size: 10rem;
+  background-size: cover;
+}
+
+.screen-bottom{
+  color: #000;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-areas: '. center right';
+  padding-block: .875rem;
+}

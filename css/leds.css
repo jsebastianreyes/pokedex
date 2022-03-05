@@ -1,0 +1,18 @@
+.leds{
+ display: flex;
+ gap: 1.5rem;
+}
+
+.led{
+  block-size: .5rem;
+  inline-size: 1.875rem;
+  background: var(--secondary);
+  border-radius: .5rem;
+  filter: drop-shadow(1px 1px 0  #300F16);
+}
+
+.led.is-active{
+  /* display: inline-block; */
+  background: #FECB2F;
+  filter: drop-shadow(1px 1px 0 #D2AB33);
+}

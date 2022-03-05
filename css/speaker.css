@@ -1,0 +1,7 @@
+.speaker{
+  block-size: 3rem;
+  inline-size: 3rem;
+  background: var(--secondary);
+  border-radius: 50%;
+  filter: drop-shadow(2px 2px 0 #300F16)
+}

@@ -1,0 +1,24 @@
+.search{
+  grid-area: search;
+  display: flex;
+}
+
+
+.search input{
+  padding: .5rem;
+  border-radius: .5rem;
+  border-color:transparent ;
+  font-size: 1rem;
+  font: var(--body1);
+  flex-grow: 1;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.search input:focus{
+  border-color: var(--secondary);
+}
+
+.search input::placeholder{
+  color: #000;
+}

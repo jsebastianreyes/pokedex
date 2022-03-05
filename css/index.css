@@ -1,0 +1,47 @@
+@import './pokedex.css';
+@import './cover.css';
+@import './header.css';
+@import './lights.css';
+@import './stats.css';
+@import './screen.css';
+@import './actions.css';
+@import './variants.css';
+@import './search.css';
+@import './description.css';
+@import './navigation.css';
+@import './navigation-bottom.css';
+@import './icon-hamburguer.css';
+@import './speaker.css';
+@import './leds.css';
+
+
+:root {
+  --white: #fffffe;
+  --black: #300f16;
+  --primary: #dc0a2d;
+  --secondary: #163355;
+  --body1: 400 0.75rem/1.5rem Roboto;
+  --body3: 400 0.5rem/0.4556451737880707rem Roboto;
+  --body2-regular: 400 0.75rem/1.375rem monospace;
+}
+
+body {
+  margin: 0;
+  padding: 1rem;
+  color: var(--white);
+  /* background-color: var(--secondary); */
+  background-color: #8BC6EC;
+  background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+
+  font: var(--body1);
+
+  box-sizing: border-box;
+  min-block-size: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+

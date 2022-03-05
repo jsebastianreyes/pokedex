@@ -1,0 +1,48 @@
+.cover{
+
+}
+
+
+.cover-front{
+  background: var(--primary);
+  block-size: inherit;
+  inline-size: inherit;
+
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  transform-origin: right center;
+  transition: 1s transform;
+  backface-visibility: hidden;
+  border-inline-end: .25rem solid #BA111F;
+  border-end-start-radius: .5rem;
+  box-sizing: border-box;
+  clip-path: polygon(0 4.75rem,70% 3.25rem, 100% 3.25rem, 100% 100%, 0 100%);
+}
+
+
+
+.cover-back{
+  box-sizing: border-box;
+  border-end-end-radius: .5rem;
+  /* background-color: aqua; */
+  background: var(--primary);
+  block-size: inherit;
+  inline-size: inherit;
+
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  inset-inline-start: 100%;
+  backface-visibility: hidden;
+  transform: rotateY(-180deg);
+  transition: 1s transform;
+  transform-origin: left;
+  clip-path: polygon(0 3.25rem, 30% 3.25rem, 100% 4.75rem, 100% 100%, 0 100%);
+  padding: 1.5rem;
+  padding-block-start: 6.25rem;
+  border-inline-start: .25rem solid #BA111F;
+
+  display: flex;
+
+}

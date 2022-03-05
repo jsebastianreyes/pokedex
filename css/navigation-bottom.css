@@ -1,0 +1,13 @@
+.screen-bottomCenter{
+  grid-area: center;
+  justify-self: center;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.screen-bottomRight{
+  grid-area: right;
+  justify-self: end;
+}
+

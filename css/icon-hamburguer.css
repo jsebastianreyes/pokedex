@@ -1,0 +1,11 @@
+.iconHamburguer{
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.iconHamburguer > *{
+  block-size: 2px;
+  inline-size: 1.375rem;
+  background: var(--secondary);
+}
