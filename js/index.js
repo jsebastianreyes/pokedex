@@ -23,14 +23,13 @@ $prevImg.addEventListener('click', handlePrevImg)
 
 let activePokemon = null
 
-console.log(activePokemon)
-
 async function handleSubmit(event) {
   synth.cancel()
   $pokedex.classList.add('is-open')
   event.preventDefault()
   const form = new FormData($form)
-  const id = form.get('id')
+  const id = form.get('id').toLocaleLowerCase()
+
 
   activePokemon = await setPokemon(id)
 
