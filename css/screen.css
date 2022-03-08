@@ -23,6 +23,8 @@
   align-items: center;
   min-block-size: 10rem;
   background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .screen-bottom{

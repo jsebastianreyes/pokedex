@@ -41,7 +41,7 @@
 }
 
 .light.is-animated{
-  animation: light .3s linear infinite;
+  animation: light .3s infinite;
 }
 
 @keyframes light{
